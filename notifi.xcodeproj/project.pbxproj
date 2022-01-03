@@ -13,6 +13,10 @@
 		229EFF232781590F002BD44B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 229EFF212781590F002BD44B /* Main.storyboard */; };
 		229EFF2527815911002BD44B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 229EFF2427815911002BD44B /* Assets.xcassets */; };
 		229EFF2827815911002BD44B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 229EFF2627815911002BD44B /* LaunchScreen.storyboard */; };
+		229EFF3227817629002BD44B /* PopUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 229EFF3127817629002BD44B /* PopUp.storyboard */; };
+		229EFF34278178DA002BD44B /* my_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 229EFF33278178DA002BD44B /* my_image.png */; };
+		229EFF3627817938002BD44B /* AlertPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229EFF3527817938002BD44B /* AlertPopUpViewController.swift */; };
+		229EFF3927817B78002BD44B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229EFF3827817B78002BD44B /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		229EFF2427815911002BD44B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		229EFF2727815911002BD44B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		229EFF2927815911002BD44B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		229EFF3127817629002BD44B /* PopUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PopUp.storyboard; sourceTree = "<group>"; };
+		229EFF33278178DA002BD44B /* my_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_image.png; sourceTree = "<group>"; };
+		229EFF3527817938002BD44B /* AlertPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPopUpViewController.swift; sourceTree = "<group>"; };
+		229EFF3827817B78002BD44B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				229EFF3927817B78002BD44B /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +51,7 @@
 			children = (
 				229EFF1A2781590F002BD44B /* notifi */,
 				229EFF192781590F002BD44B /* Products */,
+				229EFF3727817B78002BD44B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +73,19 @@
 				229EFF2427815911002BD44B /* Assets.xcassets */,
 				229EFF2627815911002BD44B /* LaunchScreen.storyboard */,
 				229EFF2927815911002BD44B /* Info.plist */,
+				229EFF3127817629002BD44B /* PopUp.storyboard */,
+				229EFF3527817938002BD44B /* AlertPopUpViewController.swift */,
+				229EFF33278178DA002BD44B /* my_image.png */,
 			);
 			path = notifi;
+			sourceTree = "<group>";
+		};
+		229EFF3727817B78002BD44B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				229EFF3827817B78002BD44B /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +149,8 @@
 				229EFF2827815911002BD44B /* LaunchScreen.storyboard in Resources */,
 				229EFF2527815911002BD44B /* Assets.xcassets in Resources */,
 				229EFF232781590F002BD44B /* Main.storyboard in Resources */,
+				229EFF34278178DA002BD44B /* my_image.png in Resources */,
+				229EFF3227817629002BD44B /* PopUp.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				229EFF3627817938002BD44B /* AlertPopUpViewController.swift in Sources */,
 				229EFF202781590F002BD44B /* ViewController.swift in Sources */,
 				229EFF1C2781590F002BD44B /* AppDelegate.swift in Sources */,
 				229EFF1E2781590F002BD44B /* SceneDelegate.swift in Sources */,
