@@ -9,7 +9,9 @@
 import UIKit
 
 class AlertPopUpViewController: UIViewController {
-    //aa
+    
+    
+    //
         @IBOutlet weak var blogBtn: UIButton!
     @IBOutlet weak var contentView: UIView!
     
